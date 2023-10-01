@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/dex.css">
+
+</head>
+<body>
+    <main>
+        
+        <img 
+        src=""
+        alt="pokemon"
+        id="pokemon_image"
+        >
+        <h1 id="pokemon-data">
+            <span id="pokemon_number"></span>-
+            <span id="pokemon_name"></span>
+        </h1>
+
+        <img 
+        src="img/pokedex.png" 
+        alt="pokedex vermelha"
+        id="pokedex"
+        >
+        <form id="form">
+            <input 
+            type="search" 
+            placeholder="Nome ou número" 
+            id="pokemon-search" 
+            required
+            >
+        </form>
+       
+        
+        <div id="buttons">
+            <button id="prev">Prev &laquo;</button>
+            <button id="pos">Pos &raquo;</button>
+        </div>
+
+    </main>
+    <script src="script/dex.js"></script>
+</body>
+</html>
